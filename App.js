@@ -23,7 +23,7 @@ export default {
         <div class="my-2"><strong>Tobias Briones</strong></div>
         <a href="https://github.com/tobiasbriones">GitHub</a>
         -
-        <a href="https://twitter.com/tobiasbriones">Twitter</a>
+        <a href="https://twitter.com/tobiasbriones_">Twitter</a>
         -
         <a href="https://linkedin.com/u/tobiasbriones">LinkedIn</a>
       </div>

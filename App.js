@@ -1,4 +1,4 @@
-const URL = `https://api.github.com/users/tobiasbriones/repos`;
+const URL = `https://api.github.com/users/tobiasbriones/repos?per_page=100`;
 
 export default {
   data() {
@@ -6,7 +6,9 @@ export default {
   },
   async mounted() {
     const res = await fetch(URL);
-    this.projects = await res.json();
+    const data = await res.json();
+    const filterObj = obj => !obj.fork;
+    this.projects = data.filter(filterObj);
   },
   methods: {
     home(project) {

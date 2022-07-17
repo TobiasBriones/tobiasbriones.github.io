@@ -27,7 +27,7 @@ export default {
         -
         <a href="https://twitter.com/tobiasbriones_">Twitter</a>
         -
-        <a href="https://linkedin.com/u/tobiasbriones">LinkedIn</a>
+        <a href="https://linkedin.com/in/tobiasbriones">LinkedIn</a>
       </div>
       
       <div>

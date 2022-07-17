@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tobias Briones</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="google-site-verification"
+      content="qi_zjUbbstHbc8IPdDgMhnW6x0EglN7E1JozE_-SsFg"
+    >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+      * {
+        font-family: 'Poppins', sans-serif;
+      }
+
+      h1 {
+        font-size: 24px !important;
+        font-weight: bold !important;
+      }
+
+      .profile > img {
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+      }
+
+      .project > a {
+        border: 1px solid #757575;
+        border-radius: 8px;
+      }
+
+      .project .name {
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      @media(min-width: 1366px) {
+        #app {
+          width: 40%;
+          margin: auto;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+        }
+      }
+    </script>
+    <script type="module">
+      import { createApp } from 'vue';
+      import MyComponent from './App.js';
+
+      createApp(MyComponent).mount('#app');
+    </script>
+  </body>
+</html>
